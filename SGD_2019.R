@@ -19,7 +19,7 @@ library("ggpubr")
 Sys.setenv('R_MAX_VSIZE'=16000000000)
 options(scipen=999) #deafult = 0
 
-path <- "/Users/Liang/Dropbox/Yuliang Weng - Dynamic Factor Models/"
+path <- "/Users/*****/Dynamic Factor Models/"
 data_path <- paste(path, "data/nba_data", sep = "/")
 
 year_directories <- dir(data_path, full.names = TRUE)
@@ -443,7 +443,7 @@ SplitName <- function(name){
   return(split)
 }
 # Read in player statistics from basketball reference
-PER_2019 <- read.csv("Dropbox/Yuliang Weng - Dynamic Factor Models/data/PER_2019.csv",header=TRUE)
+PER_2019 <- read.csv("***/*****/data/PER_2019.csv",header=TRUE)
 nrow(PER_2019)
 # Select only player names and PER 
 PER_2019 <- PER_2019[,c("Player","PER")]
