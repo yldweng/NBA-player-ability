@@ -1,4 +1,4 @@
-## Inferring NBA players ability using latent variable model
+## Inferring NBA players ability using a latent variable model
 
 a tuneable data-analytic pipeline (written in R) for the transition from raw competition and performance data to player and team abilities.
 
