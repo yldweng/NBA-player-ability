@@ -2,14 +2,17 @@
 
 a tuneable data-analytic pipeline (written in R) for the transition from raw competition and performance data to player and team abilities.
 
-Applied the stochastic gradient descent technique and implemented a computationally efficient algorithm for updating the abilities.
+Applied the stochastic gradient descent (SGD) technique and implemented a computationally efficient algorithm for updating the abilities.
 
 Data: Game statistics from Basketball Reference website.
 
+(Use data for the season 2018-19 as an example)
+
 ![Top 20 players for the season 2018-19](Top20_2019.pdf)
 
-<object data="https://github.com/yldweng/NBA-player-ability/blob/master/Top20_2019.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://github.com/yldweng/NBA-player-ability/blob/master/Top20_2019.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/yldweng/NBA-player-ability/blob/master/Top20_2019.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+![Top 10 players for the season 2018-19](Top10_2019.pdf)
+
+![Team ability for the season 2018-19](Team_2019.pdf)
+
+
+![A comparison between player efficiency rating and the ranking from SGD algorithm, for the season 2018-19](Ranking_2019.pdf)
