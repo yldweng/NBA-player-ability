@@ -4,7 +4,8 @@ a tuneable data-analytic pipeline (written in R) for the transition from raw com
 
 Applied the stochastic gradient descent (SGD) technique and implemented a computationally efficient algorithm for updating the abilities.
 
-Data: Game statistics from Basketball Reference website.
+Data: Game statistics from Basketball Reference website (https://www.basketball-reference.com/).
+Player efficiency rating: https://www.basketball-reference.com/leagues/NBA_2019_advanced.html
 
 (Use data for the season 2018-19 as an example)
 
